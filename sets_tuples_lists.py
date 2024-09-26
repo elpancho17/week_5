@@ -25,34 +25,66 @@
  #   print(fruit)
 
 
-cars =["bmw", "maserati", "audi", "mercedes", "ferrari"]
-print(f"theses are a list of {cars}")
-print(f"the first car is {cars[0]}")
+#cars =["bmw", "maserati", "audi", "mercedes", "ferrari"]
+#print(f"theses are a list of {cars}")
+#print(f"the first car is {cars[0]}")
 
 #changing the value of the list
-cars[0]= "toyota"
-print(f"the first car is {cars[0]}")
+#cars[0]= "toyota"
+#print(f"the first car is {cars[0]}")
 
-print(f"the last car is {cars[-1]}")
-cars[-1]= "lamborghini"
-print(F"the last car is {cars[-1]}")
+#print(f"the last car is {cars[-1]}")
+#cars[-1]= "lamborghini"
+#print(F"the last car is {cars[-1]}")
 
 # adding a new value to the list
-cars.append("bugatti")
-print(cars)
-cars.remove("maserati")
-print(cars)
+#cars.append("bugatti")
+#print(cars)
+#cars.remove("maserati")
+#print(cars)
 
 # looping throught the list
 #otherwise called iterating throught the list (AKA interating)
-for car in cars:
+#for car in cars:
     #print(len(car))
     #print(car)
-    carRequest= input("add a new car please: ")
-    cars.append(carRequest)
-    print(cars)
-    print(len(cars))
-    print(cars.upper())
-    print(cars)
-    if len(cars) > 10:
-        break
+    #carRequest= input("add a new car please: ")
+    #cars.append(carRequest)
+    #print(cars)
+    #print(len(cars))
+    #print(cars.upper())
+    #print(cars)
+    #if len(cars) > 10:
+        #break
+
+
+
+#challenge
+# create a list of friends
+# make sure the intital list is none
+friends=[]
+#add a new friend to the list, add at least 5 friends.
+friendAdd= input("add a new friend please: ")
+friends.append(friendAdd)
+print(len(friends))
+print(friends)
+friendAdd= input("add a new friend please: ")
+friends.append(friendAdd)
+print(len(friends))
+print(friends)
+friendAdd= input("add a new friend please: ")
+friends.append(friendAdd)
+print(len(friends))
+print(friends)
+friendAdd= input("add a new friend please: ")
+friends.append(friendAdd)
+print(len(friends))
+print(friends)
+friendAdd= input("add a new friend please: ")
+friends.append(friendAdd)
+print(len(friends))
+print(friends)
+friends.remove("cory")
+friends.insert(2,"maxwell")
+print(friends)
+print("Cloud" in friends)
