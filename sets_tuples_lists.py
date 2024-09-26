@@ -12,9 +12,9 @@ fruits= ["apple", "orange", "banana", "coconut", "Pear", "blueberries"]
 
 #fruits[1]="pineapple"# i can resign values using this 
 #fruits.append("pineapple") #move variables
-#fruits.remove("apple") #
-#fruits.insert(0, "pineapple")
-#fruits.sort()
+#fruits.remove("apple") #removes value
+#fruits.insert(0, "pineapple") #sets variables at cetain values
+#fruits.sort() #sorts 
 #fruits.reverse()
 #fruits.clear()
 
