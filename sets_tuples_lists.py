@@ -151,4 +151,4 @@ capitals= {"USA": "Washington D.C",
 
 # print(capitals)
 
-#Courtasy of Maxwell
+#Courtesy of Maxwell
